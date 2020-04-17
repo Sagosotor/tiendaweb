@@ -3,37 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="index.html">
+    <title>Registrarse</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body class="img/fondo.jpg">
-    <div class="modal-dialog text-center">
-        <div class="col-sm-8">
-            <div class="modal-content">
-                <div class="col-12">
-                    <img src="img/avatar.png" alt="">
-                </div>
-                <form class="col-12">
-                    <div class="form-group ">
-                        <input type="text" class="form-control" placeholder="Nombre de Usuario">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Contraseña">
-                    </div>
-                    <button type="submit" class="btn btn-info"><i class="fas fa-sing-in-alt"></i>Ingresar </button>
-                    <br>
-                    <br>
-                    <a href="index.html" class="btn btn-outline-success my-2 my-sm-0 ml-2"type="submit">Volver </a>
-                </form>
-                <div class="col-12">
-                    <a href="#">Recordar contraseña</a>
-                    <br>
-                </div>
-            </div>
-        </div>
-    </div>
+<body>
+    <section class="form-register">
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellidos">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="nombres" id="nombres" placeholder="Ingrese contraseña">
+        <p>Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
+        <input class="botons" type="submit" value="Registrar">
+
+        <a href="index.html" class="btn btn-outline-warning my-2 my-sm-0 ml-2"type="submit">Volver </a>
+        <p><a href="#">¿ya tengo cuenta?</a></p>
+    </section>
+   
    
     
 

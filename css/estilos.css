@@ -2,5 +2,3 @@ body{
     background: url(../img/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
 }
-/* ahí estas llamando el img como si estuviera dentro de la misma carpeta css pero como esa carpeta img esta un directorio
-mas atras entonces nos devolvemos*/
