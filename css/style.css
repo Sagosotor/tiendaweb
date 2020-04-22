@@ -2,11 +2,13 @@ body{
     background: url(../img/fondo1.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+/*
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+*/
 
 .form-register {
     width: 400px;
